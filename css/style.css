@@ -134,6 +134,10 @@ footer img {
   }
 
   .contHarley{display:none;}
+  footer{
+    justify-content:space-between;
+    padding-left: 10vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
