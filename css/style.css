@@ -52,7 +52,10 @@ section {
 .contbatman {
   display: flex;
 }
-.contsuperman2{display:none;}
+
+.contsuperman2 {
+  display: none;
+}
 
 section article {
   background-color: #f3f3f3;
@@ -148,7 +151,7 @@ footer img {
 @media screen and (max-width: 768px) {
   section article {
     margin: 50px 0;
-    
+
   }
 
   .contbatman {
@@ -163,10 +166,12 @@ footer img {
 
   .contww {
     display: flex;
-    order:1;
+    order: 1;
   }
-  
-  .contHarley{order: 3;}
+
+  .contHarley {
+    order: 3;
+  }
 
 }
 
@@ -174,18 +179,22 @@ footer img {
 
 @media screen and (max-width: 460px) {
   section article {
-
     margin: 50px 0;
   }
-  .contsuperman{display:none}
-  .contsuperman2{
-    display: flex;
-    order:2;
+
+  .contsuperman {
+    display: none;
   }
-  
+
+  .contsuperman2 {
+    display: flex;
+    order: 2;
+  }
+
   .contHarley {
-    display: none; }
-    
+    display: none;
+  }
+
   .contbatman {
     display: none;
   }
@@ -193,7 +202,11 @@ footer img {
   .contsuperman {
     display: none;
   }
-  .contsuperman2{diplay:flex;}
+
+  .contsuperman2 {
+    diplay: flex;
+  }
+
   .contww {
     display: flex;
   }
